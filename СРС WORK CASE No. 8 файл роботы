@@ -1,0 +1,107 @@
+Kyiv College of Communications  
+PERFORMANCE REPORT 
+СРС WORK CASE No. 6
+ 
+
+ Discipline: "Operating Systems" 
+Performed by students of Group CSN-33 (Computer Systems and Networks).: 
+Finchuk Alina Oleksiivna  
+________________ 
+
+Checked by: 
+Suchanova Victoria Sergiivna 
+
+1. Виконання завдань через термінал без графічної оболонки
+
+Перегляд файлів та папок через файловий менеджер у терміналі:
+У Linux є кілька текстових файлових менеджерів. Найзручніший – Midnight Commander (mc).
+Встановити можна командою: sudo apt install mc
+Після цього просто вводимо mc у терміналі, і відкриється двопанельний файловий менеджер,
+де можна переглядати, копіювати та видаляти файли.
+Англ. термін: File manager in terminal
+
+Перегляд веб-сторінок через браузер у терміналі:
+Для цього можна встановити текстовий браузер Lynx або w3m.
+Наприклад: 
+sudo apt install w3m
+w3m https://example.com
+Він показує сторінки у текстовому форматі прямо в терміналі.
+Англ. термін: Text-based web browser
+
+Перегляд електронної пошти в терміналі:
+Для цього використовують mutt або alpine.
+sudo apt install mutt
+Далі можна підключити свій e-mail і читати або відправляти листи прямо з терміналу.
+Англ. термін: Email client in terminal
+
+Слухати музику через термінал:
+Можна встановити консольний музичний плеєр cmus.
+sudo apt install cmus
+Він дозволяє створювати плейлисти, перемикати пісні і регулювати гучність без GUI.
+Англ. термін: Terminal music player
+
+Скачувати торенти через термінал:
+Є утиліта rtorrent.
+sudo apt install rtorrent
+Через неї можна завантажувати торенти, використовуючи .torrent файли або magnet-посилання.
+Англ. термін: Command-line torrent client
+
+Планувати дії в календарі та нагадувати про них через термінал:
+Для цього підходить calcurse — це текстовий календар і планувальник.
+sudo apt install calcurse
+Можна створювати події, зустрічі, нагадування.
+Англ. термін: Terminal calendar and scheduler
+
+Переглядати зображення в терміналі:
+Є програма fim або w3m-img, що дозволяє переглядати картинки прямо в терміналі.
+sudo apt install fim
+fim image.jpg
+Англ. термін: Image viewer in terminal
+
+2. Класичні дії для адміністраторів
+
+Редагування тексту:
+Найвідоміші консольні редактори — nano, vim, emacs.
+Для простоти зручно використовувати nano:
+sudo apt install nano
+nano file.txt
+Англ. термін: Text editor
+
+Моніторинг процесів і ресурсів системи:
+Є кілька інструментів: top, htop, glances.
+Найзручніший — htop:
+sudo apt install htop
+Він показує завантаження CPU, RAM, PID процесів і дозволяє їх завершувати.
+Англ. термін: System monitor
+
+3. Пасхалки (цікаві інтерактиви у терміналі)
+Подорож – поїзд:
+Команда: sl
+(скорочено від “Steam Locomotive”). Встановлення:
+sudo apt install sl
+Англ. термін: Steam Locomotive animation
+
+Фанат Зоряних воєн:
+У терміналі можна побачити фільм "Star Wars" у вигляді ASCII-графіки:
+telnet towel.blinkenlights.nl
+Англ. термін: Star Wars ASCII animation
+
+Діалог з коровою:
+sudo apt install cowsay
+cowsay "Hello, world!"
+Коровка «говорить» ваше повідомлення :)
+Англ. термін: ASCII talking cow
+
+Інші прикольні інтерактиви:
+* fortune — показує випадкову цитату або жарт
+sudo apt install fortune
+* cmatrix — ефект «Матриці» у терміналі
+sudo apt install cmatrix
+Англ. терміни: Terminal fun commands, Matrix effect, Random quotes
+
+Висновок (Conclusion)
+
+Using Linux terminal is very powerful because it can replace almost any graphical interface. You can browse the web,
+listen to music, read emails, or even play around with fun terminal commands. It helps to save system resources and
+makes you feel like a real system administrator.
+
